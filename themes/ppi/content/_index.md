@@ -49,7 +49,7 @@ GitHub
 PyPI
 {{% /button %}}
 
-{{% button url="https://pypi.org/project/policy-priority-inference/" %}}
+{{% button url="https://policypriority.org/tutorials/" %}}
 Tutorials
 {{% /button %}}
 
