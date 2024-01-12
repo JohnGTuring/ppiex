@@ -118,9 +118,14 @@ $container-max-widths: (
 			outline:0px!important;
 		}
 
-		.user-is-tabbing *:focus{
+		.user-is-tabbing *:focus, .user-is-tabbing [tabindex="-1"]:focus:not(:focus-visible){
 			outline:3px dotted #ff7800!important;
-			outline-offset:2px;
+			outline-offset:2px!important;
+		}
+		
+		.user-is-tabbing button:focus{
+			outline:3px dotted #ff7800!important;
+			outline-offset:2px!important;		
 		}
 
 		.visuallyhidden{
@@ -623,7 +628,7 @@ $container-max-widths: (
 			transition: background-color 1.5s;
 			font-family: Raleway;
 			text-wrap: nowrap;
-			white-wrap: nowrap;
+			white-space: nowrap;
 			
 			a{
 				color:black;
