@@ -21,7 +21,7 @@ To make PPI more accessible to different audiences, an online application with a
 
 In some of these steps, you can download the data templates that are necessary to use the model. The PPI online application runs locally, so the data that you load on it will remain in your machine. 
 
-{{% button url="https://oguerr.com/ppiapp/" %}}
+{{% button url="/ppiapp/" %}}
 Open the app
 {{% /button %}} 
 
@@ -183,7 +183,7 @@ Once you set the number of periods to be simulated, hit the â€œstart simulationâ
 <div class="pt-4">
 
 
-{{% button url="https://oguerr.com/ppiapp/" %}}
+{{% button url="/ppiapp/" %}}
 Run the app
 {{% /button %}} 
 

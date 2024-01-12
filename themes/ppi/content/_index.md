@@ -55,7 +55,7 @@ Tutorials
 
 While the Python version of the PPI model has been adopted by various users in public organisations, working with code still imposes a significant adoption barrier, especially when an organisation does not have the necessary capacity. For this reason, the research programme created an online version of the PPI with a graphical model and data templates for easy usage. 
 
-{{% button url="https://oguerr.com/ppiapp/" %}}
+{{% button url="/ppiapp/" %}}
 Run the app
 {{% /button %}}
 
