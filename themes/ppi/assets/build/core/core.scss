@@ -8,6 +8,7 @@
 		--smaller-heading-unit:1.8rem;
 		--vertical-half-padding:28px;
 		--vertical-gutter-padding:56px;
+		--font-size:1.1rem;
 	}
 
 @media screen and (min-width:600px) {
@@ -19,6 +20,7 @@
 		--smaller-heading-unit:1.8rem;
 		--vertical-half-padding:3vw;
 		--vertical-gutter-padding:6vw;
+		--font-size:1rem;
 	}
 }
 
@@ -29,6 +31,7 @@
 		--heading-unit:2rem;
 		--vertical-half-padding:28px;		
 		--vertical-gutter-padding:56px;
+		--font-size:1rem;
     }
 }
 
@@ -82,7 +85,7 @@ $container-max-widths: (
 
 	html {
 	  scroll-behavior: smooth;
-	  font-size:14px!important;
+	  font-size:16px!important;
 	}
 
 @media screen and (min-width:768px){
@@ -98,7 +101,7 @@ $container-max-widths: (
 		overflow-x:hidden;
 		overflow-y: scroll;
 		scroll-snap-type: y proximity;
-		font-size:14px!important;
+		font-size:16px!important;
 	}
 
 @media screen and (min-width:768px){
@@ -952,6 +955,14 @@ $container-max-widths: (
 		
 			.accordion-row-text{
 				padding-bottom: var(--vertical-gutter-padding)!important;			
+
+
+				@media screen and (max-width:600px){
+					.ppp-col-standard{
+						margin-right: var(--half-padding)!important;
+						margin-left: var(--half-padding)!important;
+					}
+				}
 
 			}
 			.box-button-container{
