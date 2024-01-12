@@ -138,7 +138,7 @@
 				padding-right: 13px;
 				width: auto;
 				border-radius: 5px;
-				height: 30px;
+				height: fit-content;
 				position: relative;
 				align-items: center;
 				padding-left: 10px;
@@ -283,6 +283,11 @@
 .cpt_videos .thumbnail-container img {
     top: -16.8%;
 }
+
+		article a{
+			display:block;
+			background:transparent;
+		}
 
 		article:hover img {
 			filter: grayscale(0%);
