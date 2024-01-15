@@ -49,7 +49,7 @@ GitHub
 PyPI
 {{% /button %}}
 
-{{% button url="https://policypriority.org/tutorials/" %}}
+{{% button url="/tutorials/" %}}
 Tutorials
 {{% /button %}}
 
