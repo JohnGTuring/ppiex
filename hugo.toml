@@ -1,4 +1,4 @@
-baseURL = 'https://policypriorityinference.github.io/'
+baseURL = 'https://policypriority.org'
 languageCode = 'en-us'
 title = 'Policy Priority Inference'
 theme = 'ppi'
